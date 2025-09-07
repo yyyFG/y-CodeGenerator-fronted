@@ -99,7 +99,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "preset",
@@ -125,7 +125,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 5
       },
       "enableBy": "register",
       "type": "preset",
@@ -139,7 +139,7 @@
       "time": {
         "hooks": {
           "onStart": [
-            2
+            1
           ]
         },
         "register": 2
@@ -176,7 +176,7 @@
             2
           ]
         },
-        "register": 2
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -190,10 +190,12 @@
       "time": {
         "hooks": {
           "modifyRoutes": [
+            0,
+            0,
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -209,10 +211,12 @@
           "onDevCompileDone": [
             17,
             3,
-            14
+            12,
+            8,
+            11
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -226,13 +230,15 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            96
+            103
           ],
           "onGenerateFiles": [
-            4
+            2,
+            8,
+            9
           ]
         },
-        "register": 25
+        "register": 27
       },
       "enableBy": "register",
       "type": "plugin",
@@ -246,10 +252,12 @@
       "time": {
         "hooks": {
           "addEntryCode": [
+            0,
+            0,
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -263,19 +271,21 @@
       "time": {
         "hooks": {
           "onCheckConfig": [
+            0,
             0
           ],
           "onCheck": [
-            1
+            0
           ],
           "onPrepareBuildSuccess": [
+            1,
             0,
             0,
             0
           ],
           "onCheckCode": [
             0,
-            1,
+            0,
             0,
             0,
             0,
@@ -334,10 +344,10 @@
       "time": {
         "hooks": {
           "onCheck": [
-            0
+            1
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -350,7 +360,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -364,6 +374,7 @@
       "time": {
         "hooks": {
           "modifyConfig": [
+            0,
             0
           ]
         },
@@ -914,7 +925,7 @@
       "enableBy": "register",
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       }
     },
     "virtual: config-hash": {
@@ -1233,7 +1244,7 @@
       "time": {
         "hooks": {
           "onStart": [
-            0
+            1
           ]
         },
         "register": 1
@@ -1279,7 +1290,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 78
+        "register": 76
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1292,7 +1303,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 19
+        "register": 18
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1313,6 +1324,12 @@
           ],
           "modifyHTMLFavicon": [
             0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ]
         },
@@ -1330,9 +1347,13 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            3
+            1,
+            0,
+            0
           ],
           "addRuntimePlugin": [
+            0,
+            0,
             0
           ]
         },
@@ -1349,7 +1370,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1362,7 +1383,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 34
+        "register": 43
       },
       "type": "plugin",
       "path": "D:/code/y-generator-frontend/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1374,7 +1395,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1387,7 +1408,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "D:/code/y-generator-frontend/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
@@ -1400,9 +1421,15 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
+            0,
+            0,
             0
           ],
           "addEntryImports": [
+            0,
+            0,
+            0,
+            0,
             0,
             0
           ]
@@ -1420,7 +1447,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1434,17 +1461,24 @@
       "time": {
         "hooks": {
           "modifyConfig": [
+            0,
             0
           ],
           "onGenerateFiles": [
-            86
+            87,
+            21,
+            16
           ],
           "addPolyfillImports": [
+            0,
+            0,
+            0,
+            0,
             0,
             0
           ]
         },
-        "register": 1
+        "register": 2
       },
       "type": "plugin",
       "path": "D:/code/y-generator-frontend/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
@@ -1458,10 +1492,14 @@
         "hooks": {
           "addPolyfillImports": [
             0,
+            0,
+            0,
+            0,
+            0,
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1475,10 +1513,12 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            129
+            141,
+            0,
+            0
           ]
         },
-        "register": 2
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1491,7 +1531,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1504,7 +1544,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1518,6 +1558,8 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
+            0,
+            0,
             1
           ],
           "addBeforeMiddlewares": [
@@ -1538,11 +1580,15 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            15,
-            9
+            17,
+            10,
+            19,
+            6,
+            12,
+            6
           ]
         },
-        "register": 5
+        "register": 6
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1555,7 +1601,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 5
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1568,7 +1614,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 1
       },
       "type": "plugin",
       "path": "D:/code/y-generator-frontend/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
@@ -1580,7 +1626,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1594,10 +1640,12 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            493
+            492,
+            15,
+            14
           ]
         },
-        "register": 2
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1614,7 +1662,7 @@
             0
           ]
         },
-        "register": 3
+        "register": 4
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1627,7 +1675,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 5
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1640,7 +1688,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1665,7 +1713,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 22
+        "register": 24
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1679,10 +1727,12 @@
       "time": {
         "hooks": {
           "onGenerateFiles": [
-            2
+            2,
+            1,
+            1
           ]
         },
-        "register": 1
+        "register": 2
       },
       "type": "plugin",
       "path": "D:/code/y-generator-frontend/node_modules/@umijs/preset-umi/dist/features/test/test.js",
@@ -1762,7 +1812,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 4
       },
       "type": "plugin",
       "path": "D:/code/y-generator-frontend/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
@@ -1787,7 +1837,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "type": "plugin",
       "path": "D:/code/y-generator-frontend/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
@@ -1800,6 +1850,12 @@
       "time": {
         "hooks": {
           "addHTMLHeadScripts": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             0,
             0
           ]
@@ -1816,7 +1872,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1830,7 +1886,7 @@
       "time": {
         "hooks": {
           "modifyUniBundler": [
-            595
+            791
           ]
         },
         "register": 1
@@ -1859,7 +1915,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 37
+        "register": 46
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1873,7 +1929,7 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            20
+            18
           ],
           "onStart": [
             0
@@ -1891,7 +1947,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1917,7 +1973,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1930,7 +1986,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 4
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1943,7 +1999,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2099,7 +2155,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2125,7 +2181,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 24
+        "register": 25
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2165,16 +2221,20 @@
       "time": {
         "hooks": {
           "addRuntimePlugin": [
+            0,
+            0,
             0
           ],
           "onGenerateFiles": [
-            1
+            2,
+            1,
+            0
           ],
           "addTmpGenerateWatcherPaths": [
             0
           ]
         },
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2189,7 +2249,7 @@
       },
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "D:/code/y-generator-frontend/node_modules/@umijs/plugins/dist/analytics.js",
@@ -2202,23 +2262,34 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            5
+            5,
+            0
           ],
           "modifyAppData": [
-            1
+            0
           ],
           "addEntryImportsAhead": [
             0,
+            0,
+            0,
+            0,
+            1,
             0
           ],
           "addRuntimePlugin": [
+            0,
+            0,
             0
           ],
           "addRuntimePluginKey": [
+            0,
+            0,
             0
           ],
           "onGenerateFiles": [
-            7
+            8,
+            1,
+            1
           ],
           "addExtraBabelPlugins": [
             0
@@ -2239,7 +2310,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 7
+        "register": 6
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2253,19 +2324,27 @@
       "time": {
         "hooks": {
           "addRuntimePlugin": [
+            0,
+            0,
             0
           ],
           "addRuntimePluginKey": [
+            0,
+            0,
             0
           ],
           "onGenerateFiles": [
-            7
+            8,
+            1,
+            1
           ],
           "addExtraModels": [
+            0,
+            0,
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2281,22 +2360,31 @@
       "time": {
         "hooks": {
           "modifyConfig": [
+            0,
             0
           ],
           "addLayouts": [
+            1,
+            0,
             0
           ],
           "modifyAppData": [
-            0
+            1
           ],
           "addRuntimePlugin": [
+            0,
+            0,
             0
           ],
           "addRuntimePluginKey": [
+            0,
+            0,
             0
           ],
           "onGenerateFiles": [
-            7
+            7,
+            3,
+            2
           ]
         },
         "register": 2
@@ -2312,7 +2400,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2339,10 +2427,14 @@
       "time": {
         "hooks": {
           "addRuntimePlugin": [
+            0,
+            0,
             0
           ],
           "onGenerateFiles": [
-            28
+            31,
+            28,
+            23
           ],
           "addTmpGenerateWatcherPaths": [
             0
@@ -2362,13 +2454,18 @@
       "time": {
         "hooks": {
           "modifyConfig": [
+            1,
             0
           ],
           "addEntryCodeAhead": [
+            0,
+            0,
             0
           ],
           "onGenerateFiles": [
-            1
+            2,
+            0,
+            0
           ]
         },
         "register": 0
@@ -2385,6 +2482,8 @@
       "time": {
         "hooks": {
           "addRuntimePluginKey": [
+            0,
+            0,
             0
           ]
         },
@@ -2439,13 +2538,17 @@
       "time": {
         "hooks": {
           "addRuntimePluginKey": [
+            0,
+            0,
             0
           ],
           "onGenerateFiles": [
-            4
+            3,
+            1,
+            1
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2471,7 +2574,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2498,6 +2601,7 @@
       "time": {
         "hooks": {
           "modifyConfig": [
+            0,
             0
           ]
         },
@@ -2518,7 +2622,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2535,7 +2639,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2549,6 +2653,7 @@
       "time": {
         "hooks": {
           "modifyConfig": [
+            0,
             0
           ]
         },
@@ -2579,24 +2684,30 @@
       "time": {
         "hooks": {
           "modifyRoutes": [
+            0,
+            0,
             0
           ],
           "onStart": [
             0
           ],
           "onGenerateFiles": [
+            0,
+            0,
             0
           ],
           "addBeforeMiddlewares": [
             0
           ],
           "onDevCompileDone": [
-            2,
+            3,
             1,
-            2
+            1,
+            0,
+            1
           ]
         },
-        "register": 155
+        "register": 154
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2609,7 +2720,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 140
+        "register": 135
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2646,7 +2757,7 @@
       },
       "time": {
         "hooks": {},
-        "register": 61
+        "register": 65
       },
       "type": "plugin",
       "path": "D:/code/y-generator-frontend/node_modules/@umijs/request-record/dist/cjs/index.js",
@@ -2658,7 +2769,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2721,6 +2832,13 @@
         "icon": "plus",
         "component": "./Generator/Add",
         "name": "修改生成器",
+        "hideInMenu": true
+      },
+      {
+        "path": "/generator/use/:id",
+        "icon": "home",
+        "component": "./Generator/Use",
+        "name": "使用生成器",
         "hideInMenu": true
       },
       {
@@ -2895,6 +3013,13 @@
         "icon": "plus",
         "component": "./Generator/Add",
         "name": "修改生成器",
+        "hideInMenu": true
+      },
+      {
+        "path": "/generator/use/:id",
+        "icon": "home",
+        "component": "./Generator/Use",
+        "name": "使用生成器",
         "hideInMenu": true
       },
       {
@@ -3931,113 +4056,126 @@
       "parentId": "ant-design-pro-layout",
       "id": "4",
       "absPath": "/",
-      "__content": "import { listGeneratorVoByPageUsingPost } from '@/services/backend/generatorController';\nimport { UserOutlined } from '@ant-design/icons';\nimport { PageContainer, ProFormSelect, ProFormText, QueryFilter } from '@ant-design/pro-components';\nimport { Avatar, Card, Flex, Image, Input, List, message, Tabs, Tag, Typography } from 'antd';\nimport moment from 'moment';\nimport React, { useEffect, useState } from 'react';\n\n/**\n * 默认分页参数\n */\nconst DEFAULT_PAGE_PARAMS: PageRequest = {\n  current: 1,\n  pageSize: 4,\n  sortField: 'createTime',\n  sortOrder: 'descend',\n};\n\n/**\n * 主页\n * @constructor\n */\nconst IndexPage: React.FC = () => {\n  const [loading, setLoading] = useState<boolean>(true);\n  const [dataList, setDataList] = useState<API.GeneratorVO[]>([]);\n  const [total, setTotal] = useState<number>(0);\n  // 搜索条件\n  const [searchParams, setSearchParams] = useState<API.GeneratorQueryRequest>({\n    ...DEFAULT_PAGE_PARAMS,\n  });\n\n  /**\n   * 搜索\n   */\n  const doSearch = async () => {\n    setLoading(true);\n    try {\n      const res = await listGeneratorVoByPageUsingPost(searchParams);\n      setDataList(res.data?.records ?? []);\n      setTotal(Number(res.data?.total) ?? 0);\n    } catch (error: any) {\n      message.error('获取数据失败，' + error.message);\n    }\n    setLoading(false);\n  };\n\n  useEffect(() => {\n    doSearch();\n  }, [searchParams]);\n\n  /**\n   * 标签列表\n   * @param tags\n   */\n  const tagListView = (tags?: string[]) => {\n    if (!tags) {\n      return <></>;\n    }\n\n    return (\n      <div style={{ marginBottom: 8 }}>\n        {tags.map((tag) => (\n          <Tag key={tag}>{tag}</Tag>\n        ))}\n      </div>\n    );\n  };\n\n  return (\n    <PageContainer title={<></>}>\n      <Flex justify=\"center\">\n        <Input.Search\n          style={{\n            width: '40vw',\n            minWidth: 320,\n          }}\n          placeholder=\"搜索代码生成器\"\n          allowClear\n          enterButton=\"搜索\"\n          size=\"large\"\n          onChange={(e) => {\n            searchParams.searchText = e.target.value;\n          }}\n          onSearch={(value: string) => {\n            setSearchParams({\n              ...searchParams,\n              ...DEFAULT_PAGE_PARAMS,\n              searchText: value,\n            });\n          }}\n        />\n      </Flex>\n      <div style={{ marginBottom: 16 }} />\n\n      <Tabs\n        size=\"large\"\n        defaultActiveKey=\"newest\"\n        items={[\n          {\n            key: 'newest',\n            label: '最新',\n          },\n          {\n            key: 'recommend',\n            label: '推荐',\n          },\n        ]}\n        onChange={() => {}}\n      />\n\n      <QueryFilter\n        span={12}\n        labelWidth=\"auto\"\n        labelAlign=\"left\"\n        defaultCollapsed={false}\n        style={{ padding: '16px 0' }}\n        onFinish={async (values: API.GeneratorQueryRequest) => {\n          setSearchParams({\n            ...DEFAULT_PAGE_PARAMS,\n            // @ts-ignore\n            ...values,\n            searchText: searchParams.searchText,\n          });\n        }}\n      >\n        <ProFormSelect label=\"标签\" name=\"tags\" mode=\"tags\" />\n        <ProFormText label=\"名称\" name=\"name\" />\n        <ProFormText label=\"描述\" name=\"description\" />\n      </QueryFilter>\n\n      <div style={{ marginBottom: 24 }} />\n\n      <List<API.GeneratorVO>\n        rowKey=\"id\"\n        loading={loading}\n        grid={{\n          gutter: 16,\n          xs: 1,\n          sm: 2,\n          md: 3,\n          lg: 3,\n          xl: 4,\n          xxl: 4,\n        }}\n        dataSource={dataList}\n        pagination={{\n          current: searchParams.current,\n          pageSize: searchParams.pageSize,\n          total,\n          onChange(current: number, pageSize: number) {\n            setSearchParams({\n              ...searchParams,\n              current,\n              pageSize,\n            });\n          },\n        }}\n        renderItem={(data) => (\n          <List.Item>\n            <Card hoverable cover={<Image alt={data.name} src={data.picture} />}>\n              <Card.Meta\n                title={<a>{data.name}</a>}\n                description={\n                  <Typography.Paragraph ellipsis={{ rows: 2 }} style={{ height: 44 }}>\n                    {data.description}\n                  </Typography.Paragraph>\n                }\n              />\n              {tagListView(data.tags)}\n              <Flex justify=\"space-between\" align=\"center\">\n                <Typography.Text type=\"secondary\" style={{ fontSize: 12 }}>\n                  {moment(data.createTime).fromNow()}\n                </Typography.Text>\n                <div>\n                  <Avatar src={data.user?.userAvatar ?? <UserOutlined />} />\n                </div>\n              </Flex>\n            </Card>\n          </List.Item>\n        )}\n      />\n    </PageContainer>\n  );\n};\n\nexport default IndexPage;\n",
+      "__content": "import { listGeneratorVoByPageUsingPost } from '@/services/backend/generatorController';\nimport { UserOutlined } from '@ant-design/icons';\nimport { PageContainer, ProFormSelect, ProFormText, QueryFilter } from '@ant-design/pro-components';\nimport { Avatar, Card, Flex, Image, Input, List, message, Tabs, Tag, Typography } from 'antd';\nimport moment from 'moment';\nimport React, { useEffect, useState } from 'react';\nimport {Link} from \"umi\";\n\n/**\n * 默认分页参数\n */\nconst DEFAULT_PAGE_PARAMS: PageRequest = {\n  current: 1,\n  pageSize: 4,\n  sortField: 'createTime',\n  sortOrder: 'descend',\n};\n\n/**\n * 主页\n * @constructor\n */\nconst IndexPage: React.FC = () => {\n  const [loading, setLoading] = useState<boolean>(true);\n  const [dataList, setDataList] = useState<API.GeneratorVO[]>([]);\n  const [total, setTotal] = useState<number>(0);\n  // 搜索条件\n  const [searchParams, setSearchParams] = useState<API.GeneratorQueryRequest>({\n    ...DEFAULT_PAGE_PARAMS,\n  });\n\n  /**\n   * 搜索\n   */\n  const doSearch = async () => {\n    setLoading(true);\n    try {\n      const res = await listGeneratorVoByPageUsingPost(searchParams);\n      setDataList(res.data?.records ?? []);\n      setTotal(Number(res.data?.total) ?? 0);\n    } catch (error: any) {\n      message.error('获取数据失败，' + error.message);\n    }\n    setLoading(false);\n  };\n\n  useEffect(() => {\n    doSearch();\n  }, [searchParams]);\n\n  /**\n   * 标签列表\n   * @param tags\n   */\n  const tagListView = (tags?: string[]) => {\n    if (!tags) {\n      return <></>;\n    }\n\n    return (\n      <div style={{ marginBottom: 8 }}>\n        {tags.map((tag) => (\n          <Tag key={tag}>{tag}</Tag>\n        ))}\n      </div>\n    );\n  };\n\n  return (\n    <PageContainer title={<></>}>\n      <Flex justify=\"center\">\n        <Input.Search\n          style={{\n            width: '40vw',\n            minWidth: 320,\n          }}\n          placeholder=\"搜索代码生成器\"\n          allowClear\n          enterButton=\"搜索\"\n          size=\"large\"\n          onChange={(e) => {\n            searchParams.searchText = e.target.value;\n          }}\n          onSearch={(value: string) => {\n            setSearchParams({\n              ...searchParams,\n              ...DEFAULT_PAGE_PARAMS,\n              searchText: value,\n            });\n          }}\n        />\n      </Flex>\n      <div style={{ marginBottom: 16 }} />\n\n      <Tabs\n        size=\"large\"\n        defaultActiveKey=\"newest\"\n        items={[\n          {\n            key: 'newest',\n            label: '最新',\n          },\n          {\n            key: 'recommend',\n            label: '推荐',\n          },\n        ]}\n        onChange={() => {}}\n      />\n\n      <QueryFilter\n        span={12}\n        labelWidth=\"auto\"\n        labelAlign=\"left\"\n        defaultCollapsed={false}\n        style={{ padding: '16px 0' }}\n        onFinish={async (values: API.GeneratorQueryRequest) => {\n          setSearchParams({\n            ...DEFAULT_PAGE_PARAMS,\n            // @ts-ignore\n            ...values,\n            searchText: searchParams.searchText,\n          });\n        }}\n      >\n        <ProFormSelect label=\"标签\" name=\"tags\" mode=\"tags\" />\n        <ProFormText label=\"名称\" name=\"name\" />\n        <ProFormText label=\"描述\" name=\"description\" />\n      </QueryFilter>\n\n      <div style={{ marginBottom: 24 }} />\n\n      <List<API.GeneratorVO>\n        rowKey=\"id\"\n        loading={loading}\n        grid={{\n          gutter: 16,\n          xs: 1,\n          sm: 2,\n          md: 3,\n          lg: 3,\n          xl: 4,\n          xxl: 4,\n        }}\n        dataSource={dataList}\n        pagination={{\n          current: searchParams.current,\n          pageSize: searchParams.pageSize,\n          total,\n          onChange(current: number, pageSize: number) {\n            setSearchParams({\n              ...searchParams,\n              current,\n              pageSize,\n            });\n          },\n        }}\n        renderItem={(data) => (\n            <List.Item>\n                <Link to={`/generator/detail/${data.id}`}>\n                    <Card hoverable cover={<Image alt={data.name} src={data.picture} />}>\n                        <Card.Meta\n                            title={<a>{data.name}</a>}\n                            description={\n                                <Typography.Paragraph ellipsis={{ rows: 2 }} style={{ height: 44 }}>\n                                    {data.description}\n                                </Typography.Paragraph>\n                            }\n                        />\n                        {tagListView(data.tags)}\n                        <Flex justify=\"space-between\" align=\"center\">\n                            <Typography.Text type=\"secondary\" style={{ fontSize: 12 }}>\n                                {moment(data.createTime).fromNow()}\n                            </Typography.Text>\n                            <div>\n                                <Avatar src={data.user?.userAvatar ?? <UserOutlined />} />\n                            </div>\n                        </Flex>\n                    </Card>\n                </Link>\n            </List.Item>\n        )}\n      />\n    </PageContainer>\n  );\n};\n\nexport default IndexPage;\n",
       "__isJSFile": true,
       "__absFile": "D:/code/y-generator-frontend/src/pages/Index/index.tsx"
     },
     "5": {
-      "path": "/test/file",
-      "icon": "home",
-      "name": "文件上传下载测试",
-      "hideInMenu": true,
-      "file": "@/pages/Test/File/index.tsx",
-      "parentId": "ant-design-pro-layout",
-      "id": "5",
-      "absPath": "/test/file",
-      "__content": "import { COS_HOST } from '@/constants';\r\nimport {\r\n    testDownloadFileUsingGet,\r\n    testUploadFileUsingPost,\r\n} from '@/services/backend/fileController';\r\nimport { InboxOutlined } from '@ant-design/icons';\r\nimport { Button, Card, Divider, Flex, message, Upload, UploadProps } from 'antd';\r\n// @ts-ignore\r\nimport { saveAs } from 'file-saver';\r\nimport React, { useState } from 'react';\r\n\r\nconst { Dragger } = Upload;\r\n\r\n/**\r\n * 文件上传下载测试页面\r\n * @constructor\r\n */\r\nconst TestFilePage: React.FC = () => {\r\n    const [value, setValue] = useState<string>();\r\n\r\n    const props: UploadProps = {\r\n        name: 'file',\r\n        multiple: false,\r\n        maxCount: 1,\r\n        customRequest: async (fileObj: any) => {\r\n            try {\r\n                const res = await testUploadFileUsingPost({}, fileObj.file);\r\n                fileObj.onSuccess(res.data);\r\n                setValue(res.data);\r\n            } catch (e: any) {\r\n                message.error('上传失败，' + e.message);\r\n                fileObj.onError(e);\r\n            }\r\n        },\r\n        onRemove() {\r\n            setValue(undefined);\r\n        },\r\n    };\r\n\r\n    return (\r\n        <Flex gap={16}>\r\n        <Card title=\"文件上传\">\r\n        <Dragger {...props}>\r\n        <p className=\"ant-upload-drag-icon\">\r\n            <InboxOutlined />\r\n            </p>\r\n            <p className=\"ant-upload-text\">Click or drag file to this area to upload</p>\r\n    <p className=\"ant-upload-hint\">\r\n        Support for a single or bulk upload. Strictly prohibited from uploading company data or\r\n    other banned files.\r\n    </p>\r\n    </Dragger>\r\n    </Card>\r\n    <Card title=\"文件下载\" loading={!value}>\r\n    <div>文件地址：{COS_HOST + value}</div>\r\n    <Divider />\r\n    <img src={COS_HOST + value} height={280} />\r\n    <Divider />\r\n    <Button\r\n        onClick={async () => {\r\n        const blob = await testDownloadFileUsingGet(\r\n            {\r\n                filepath: value,\r\n            },\r\n            {\r\n                responseType: 'blob',\r\n            },\r\n        );\r\n        // 使用 file-saver 来保存文件\r\n        const fullPath = COS_HOST + value;\r\n        saveAs(blob, fullPath.substring(fullPath.lastIndexOf('/') + 1));\r\n    }}\r\n>\r\n    点击下载文件\r\n    </Button>\r\n    </Card>\r\n    </Flex>\r\n);\r\n};\r\n\r\nexport default TestFilePage;\r\n",
-      "__isJSFile": true,
-      "__absFile": "D:/code/y-generator-frontend/src/pages/Test/File/index.tsx"
-    },
-    "6": {
       "path": "/generator/add",
       "icon": "plus",
       "name": "创建生成器",
       "file": "@/pages/Generator/Add/index.tsx",
       "parentId": "ant-design-pro-layout",
-      "id": "6",
+      "id": "5",
       "absPath": "/generator/add",
       "__content": "import FileUploader from '@/components/FileUploader';\r\nimport PictureUploader from '@/components/PictureUploader';\r\nimport { COS_HOST } from '@/constants';\r\nimport {\r\n    addGeneratorUsingPost,\r\n    editGeneratorUsingPost,\r\n    getGeneratorVoByIdUsingGet,\r\n} from '@/services/backend/generatorController';\r\nimport { useSearchParams } from '@@/exports';\r\nimport type { ProFormInstance } from '@ant-design/pro-components';\r\nimport {\r\n    ProCard,\r\n    ProFormSelect,\r\n    ProFormText,\r\n    ProFormTextArea,\r\n    StepsForm,\r\n} from '@ant-design/pro-components';\r\nimport { ProFormItem } from '@ant-design/pro-form';\r\nimport { history } from '@umijs/max';\r\nimport { message, UploadFile } from 'antd';\r\nimport React, { useEffect, useRef, useState } from 'react';\r\n\r\n/**\r\n * 创建生成器页面\r\n * @constructor\r\n */\r\nconst GeneratorAddPage: React.FC = () => {\r\n    const [searchParams] = useSearchParams();\r\n    const id = searchParams.get('id');\r\n    const [oldData, setOldData] = useState<API.GeneratorEditRequest>();\r\n    const formRef = useRef<ProFormInstance>();\r\n\r\n    /**\r\n     * 加载数据\r\n     */\r\n    const loadData = async () => {\r\n        if (!id) {\r\n            return;\r\n        }\r\n        try {\r\n            const res = await getGeneratorVoByIdUsingGet({\r\n                id,\r\n            });\r\n\r\n            // 处理文件路径\r\n            if (res.data) {\r\n                const { distPath } = res.data ?? {};\r\n                if (distPath) {\r\n                    // @ts-ignore\r\n                    res.data.distPath = [\r\n                        {\r\n                            uid: id,\r\n                            name: '文件' + id,\r\n                            status: 'done',\r\n                            url: COS_HOST + distPath,\r\n                            response: distPath,\r\n                        } as UploadFile,\r\n                    ];\r\n                }\r\n                setOldData(res.data);\r\n            }\r\n        } catch (error: any) {\r\n            message.error('加载数据失败，' + error.message);\r\n        }\r\n    };\r\n\r\n    useEffect(() => {\r\n        if (id) {\r\n            loadData();\r\n        }\r\n    }, [id]);\r\n\r\n    /**\r\n     * 创建\r\n     * @param values\r\n     */\r\n    const doAdd = async (values: API.GeneratorAddRequest) => {\r\n        try {\r\n            const res = await addGeneratorUsingPost(values);\r\n            if (res.data) {\r\n                message.success('创建成功');\r\n                history.push(`/generator/detail/${res.data}`);\r\n            }\r\n        } catch (error: any) {\r\n            message.error('创建失败，' + error.message);\r\n        }\r\n    };\r\n\r\n    /**\r\n     * 更新\r\n     * @param values\r\n     */\r\n    const doUpdate = async (values: API.GeneratorEditRequest) => {\r\n        try {\r\n            const res = await editGeneratorUsingPost(values);\r\n            if (res.data) {\r\n                message.success('更新成功');\r\n                history.push(`/generator/detail/${id}`);\r\n            }\r\n        } catch (error: any) {\r\n            message.error('更新失败，' + error.message);\r\n        }\r\n    };\r\n\r\n    /**\r\n     * 提交\r\n     * @param values\r\n     */\r\n    const doSubmit = async (values: API.GeneratorAddRequest) => {\r\n        // 数据转换\r\n        if (!values.fileConfig) {\r\n            values.fileConfig = {};\r\n        }\r\n        if (!values.modelConfig) {\r\n            values.modelConfig = {};\r\n        }\r\n        // 文件列表转 url\r\n        if (values.distPath && values.distPath.length > 0) {\r\n            // @ts-ignore\r\n            values.distPath = values.distPath[0].response;\r\n        }\r\n\r\n        if (id) {\r\n            await doUpdate({\r\n                id,\r\n                ...values,\r\n            });\r\n        } else {\r\n            await doAdd(values);\r\n        }\r\n    };\r\n\r\n    return (\r\n        <ProCard>\r\n            {/* 创建或者已加载要更新的数据时，才渲染表单，顺利填充默认值 */}\r\n            {(!id || oldData) && (\r\n                <StepsForm<API.GeneratorAddRequest | API.GeneratorEditRequest>\r\n                    formRef={formRef}\r\n                    formProps={{\r\n                        initialValues: oldData,\r\n                    }}\r\n                    onFinish={doSubmit}\r\n                >\r\n                    <StepsForm.StepForm name=\"base\" title=\"基本信息\">\r\n                        <ProFormText name=\"name\" label=\"名称\" placeholder=\"请输入名称\" />\r\n                        <ProFormTextArea name=\"description\" label=\"描述\" placeholder=\"请输入描述\" />\r\n                        <ProFormText name=\"basePackage\" label=\"基础包\" placeholder=\"请输入基础包\" />\r\n                        <ProFormText name=\"version\" label=\"版本\" placeholder=\"请输入版本\" />\r\n                        <ProFormText name=\"author\" label=\"作者\" placeholder=\"请输入作者\" />\r\n                        <ProFormSelect label=\"标签\" mode=\"tags\" name=\"tags\" placeholder=\"请输入标签列表\" />\r\n                        <ProFormItem label=\"图片\" name=\"picture\">\r\n                            <PictureUploader biz=\"generator_picture\" />\r\n                        </ProFormItem>\r\n                    </StepsForm.StepForm>\r\n                    <StepsForm.StepForm name=\"fileConfig\" title=\"文件配置\">\r\n                    </StepsForm.StepForm>\r\n                    <StepsForm.StepForm name=\"modelConfig\" title=\"模型配置\">\r\n                    </StepsForm.StepForm>\r\n                    <StepsForm.StepForm name=\"dist\" title=\"生成器文件\">\r\n                        <ProFormItem label=\"产物包\" name=\"distPath\">\r\n                            <FileUploader biz=\"generator_dist\" description=\"请上传生成器文件压缩包\" />\r\n                        </ProFormItem>\r\n                    </StepsForm.StepForm>\r\n                </StepsForm>\r\n            )}\r\n        </ProCard>\r\n    );\r\n};\r\n\r\nexport default GeneratorAddPage;\r\n",
       "__isJSFile": true,
       "__absFile": "D:/code/y-generator-frontend/src/pages/Generator/Add/index.tsx"
     },
-    "7": {
-      "path": "/generator/detail/:id",
-      "icon": "home",
-      "name": "生成器详情",
-      "hideInMenu": true,
-      "file": "@/pages/Generator/Detail/index.tsx",
-      "parentId": "ant-design-pro-layout",
-      "id": "7",
-      "absPath": "/generator/detail/:id",
-      "__content": "import AuthorInfo from '@/pages/Generator/Detail/components/AuthorInfo';\r\nimport FileConfig from '@/pages/Generator/Detail/components/FileConfig';\r\nimport ModelConfig from '@/pages/Generator/Detail/components/ModelConfig';\r\nimport {\r\n    downloadGeneratorByIdUsingGet,\r\n    getGeneratorVoByIdUsingGet,\r\n} from '@/services/backend/generatorController';\r\nimport { Link, useModel, useParams } from '@@/exports';\r\nimport { DownloadOutlined, EditOutlined } from '@ant-design/icons';\r\nimport { PageContainer } from '@ant-design/pro-components';\r\nimport { Button, Card, Col, Image, message, Row, Space, Tabs, Tag, Typography } from 'antd';\r\nimport { saveAs } from 'file-saver';\r\nimport moment from 'moment';\r\nimport React, { useEffect, useState } from 'react';\r\n\r\n/**\r\n * 生成器详情页\r\n * @constructor\r\n */\r\nconst GeneratorDetailPage: React.FC = () => {\r\n    const { id } = useParams();\r\n\r\n    const [loading, setLoading] = useState<boolean>(false);\r\n    const [data, setData] = useState<API.GeneratorVO>({});\r\n    const { initialState } = useModel('@@initialState');\r\n    const { currentUser } = initialState ?? {};\r\n    const my = currentUser?.id === data?.userId;\r\n\r\n    /**\r\n     * 加载数据\r\n     */\r\n    const loadData = async () => {\r\n        if (!id) {\r\n            return;\r\n        }\r\n        setLoading(true);\r\n        try {\r\n            const res = await getGeneratorVoByIdUsingGet({\r\n                id,\r\n            });\r\n            setData(res.data || {});\r\n        } catch (error: any) {\r\n            message.error('获取数据失败，' + error.message);\r\n        }\r\n        setLoading(false);\r\n    };\r\n\r\n    useEffect(() => {\r\n        loadData();\r\n    }, [id]);\r\n\r\n    /**\r\n     * 标签列表视图\r\n     * @param tags\r\n     */\r\n    const tagListView = (tags?: string[]) => {\r\n        if (!tags) {\r\n            return <></>;\r\n        }\r\n\r\n        return (\r\n            <div style={{ marginBottom: 8 }}>\r\n                {tags.map((tag: string) => {\r\n                    return <Tag key={tag}>{tag}</Tag>;\r\n                })}\r\n            </div>\r\n        );\r\n    };\r\n\r\n    /**\r\n     * 下载按钮\r\n     */\r\n    const downloadButton = data.distPath && currentUser && (\r\n        <Button\r\n            icon={<DownloadOutlined />}\r\n            onClick={async () => {\r\n                const blob = await downloadGeneratorByIdUsingGet(\r\n                    {\r\n                        id: data.id,\r\n                    },\r\n                    {\r\n                        responseType: 'blob',\r\n                    },\r\n                );\r\n                // 使用 file-saver 来保存文件\r\n                const fullPath = data.distPath || '';\r\n                saveAs(blob, fullPath.substring(fullPath.lastIndexOf('/') + 1));\r\n            }}\r\n        >\r\n            下载\r\n        </Button>\r\n    );\r\n\r\n    /**\r\n     * 编辑按钮\r\n     */\r\n    const editButton = my && (\r\n        <Link to={`/generator/update?id=${data.id}`}>\r\n            <Button icon={<EditOutlined />}>编辑</Button>\r\n        </Link>\r\n    );\r\n\r\n    return (\r\n        <PageContainer title={<></>} loading={loading}>\r\n            <Card>\r\n                <Row justify=\"space-between\" gutter={[32, 32]}>\r\n                    <Col flex=\"auto\">\r\n                        <Space size=\"large\" align=\"center\">\r\n                            <Typography.Title level={4}>{data.name}</Typography.Title>\r\n                            {tagListView(data.tags)}\r\n                        </Space>\r\n                        <Typography.Paragraph>{data.description}</Typography.Paragraph>\r\n                        <Typography.Paragraph type=\"secondary\">\r\n                            创建时间：{moment(data.createTime).format('YYYY-MM-DD hh:mm:ss')}\r\n                        </Typography.Paragraph>\r\n                        <Typography.Paragraph type=\"secondary\">基础包：{data.basePackage}</Typography.Paragraph>\r\n                        <Typography.Paragraph type=\"secondary\">版本：{data.version}</Typography.Paragraph>\r\n                        <Typography.Paragraph type=\"secondary\">作者：{data.author}</Typography.Paragraph>\r\n                        <div style={{ marginBottom: 24 }} />\r\n                        <Space size=\"middle\">\r\n                            <Button type=\"primary\">立即使用</Button>\r\n                            {downloadButton}\r\n                            {editButton}\r\n                        </Space>\r\n                    </Col>\r\n                    <Col flex=\"320px\">\r\n                        <Image src={data.picture} />\r\n                    </Col>\r\n                </Row>\r\n            </Card>\r\n            <div style={{ marginBottom: 24 }} />\r\n            <Card>\r\n                <Tabs\r\n                    size=\"large\"\r\n                    defaultActiveKey={'fileConfig'}\r\n                    onChange={() => {}}\r\n                    items={[\r\n                        {\r\n                            key: 'fileConfig',\r\n                            label: '文件配置',\r\n                            children: <FileConfig data={data} />,\r\n                        },\r\n                        {\r\n                            key: 'modelConfig',\r\n                            label: '模型配置',\r\n                            children: <ModelConfig data={data} />,\r\n                        },\r\n                        {\r\n                            key: 'userInfo',\r\n                            label: '作者信息',\r\n                            children: <AuthorInfo data={data} />,\r\n                        },\r\n                    ]}\r\n                />\r\n            </Card>\r\n        </PageContainer>\r\n    );\r\n};\r\n\r\nexport default GeneratorDetailPage;\r\n",
-      "__isJSFile": true,
-      "__absFile": "D:/code/y-generator-frontend/src/pages/Generator/Detail/index.tsx"
-    },
-    "8": {
+    "6": {
       "path": "/generator/update",
       "icon": "plus",
       "name": "修改生成器",
       "hideInMenu": true,
       "file": "@/pages/Generator/Add/index.tsx",
       "parentId": "ant-design-pro-layout",
-      "id": "8",
+      "id": "6",
       "absPath": "/generator/update",
       "__content": "import FileUploader from '@/components/FileUploader';\r\nimport PictureUploader from '@/components/PictureUploader';\r\nimport { COS_HOST } from '@/constants';\r\nimport {\r\n    addGeneratorUsingPost,\r\n    editGeneratorUsingPost,\r\n    getGeneratorVoByIdUsingGet,\r\n} from '@/services/backend/generatorController';\r\nimport { useSearchParams } from '@@/exports';\r\nimport type { ProFormInstance } from '@ant-design/pro-components';\r\nimport {\r\n    ProCard,\r\n    ProFormSelect,\r\n    ProFormText,\r\n    ProFormTextArea,\r\n    StepsForm,\r\n} from '@ant-design/pro-components';\r\nimport { ProFormItem } from '@ant-design/pro-form';\r\nimport { history } from '@umijs/max';\r\nimport { message, UploadFile } from 'antd';\r\nimport React, { useEffect, useRef, useState } from 'react';\r\n\r\n/**\r\n * 创建生成器页面\r\n * @constructor\r\n */\r\nconst GeneratorAddPage: React.FC = () => {\r\n    const [searchParams] = useSearchParams();\r\n    const id = searchParams.get('id');\r\n    const [oldData, setOldData] = useState<API.GeneratorEditRequest>();\r\n    const formRef = useRef<ProFormInstance>();\r\n\r\n    /**\r\n     * 加载数据\r\n     */\r\n    const loadData = async () => {\r\n        if (!id) {\r\n            return;\r\n        }\r\n        try {\r\n            const res = await getGeneratorVoByIdUsingGet({\r\n                id,\r\n            });\r\n\r\n            // 处理文件路径\r\n            if (res.data) {\r\n                const { distPath } = res.data ?? {};\r\n                if (distPath) {\r\n                    // @ts-ignore\r\n                    res.data.distPath = [\r\n                        {\r\n                            uid: id,\r\n                            name: '文件' + id,\r\n                            status: 'done',\r\n                            url: COS_HOST + distPath,\r\n                            response: distPath,\r\n                        } as UploadFile,\r\n                    ];\r\n                }\r\n                setOldData(res.data);\r\n            }\r\n        } catch (error: any) {\r\n            message.error('加载数据失败，' + error.message);\r\n        }\r\n    };\r\n\r\n    useEffect(() => {\r\n        if (id) {\r\n            loadData();\r\n        }\r\n    }, [id]);\r\n\r\n    /**\r\n     * 创建\r\n     * @param values\r\n     */\r\n    const doAdd = async (values: API.GeneratorAddRequest) => {\r\n        try {\r\n            const res = await addGeneratorUsingPost(values);\r\n            if (res.data) {\r\n                message.success('创建成功');\r\n                history.push(`/generator/detail/${res.data}`);\r\n            }\r\n        } catch (error: any) {\r\n            message.error('创建失败，' + error.message);\r\n        }\r\n    };\r\n\r\n    /**\r\n     * 更新\r\n     * @param values\r\n     */\r\n    const doUpdate = async (values: API.GeneratorEditRequest) => {\r\n        try {\r\n            const res = await editGeneratorUsingPost(values);\r\n            if (res.data) {\r\n                message.success('更新成功');\r\n                history.push(`/generator/detail/${id}`);\r\n            }\r\n        } catch (error: any) {\r\n            message.error('更新失败，' + error.message);\r\n        }\r\n    };\r\n\r\n    /**\r\n     * 提交\r\n     * @param values\r\n     */\r\n    const doSubmit = async (values: API.GeneratorAddRequest) => {\r\n        // 数据转换\r\n        if (!values.fileConfig) {\r\n            values.fileConfig = {};\r\n        }\r\n        if (!values.modelConfig) {\r\n            values.modelConfig = {};\r\n        }\r\n        // 文件列表转 url\r\n        if (values.distPath && values.distPath.length > 0) {\r\n            // @ts-ignore\r\n            values.distPath = values.distPath[0].response;\r\n        }\r\n\r\n        if (id) {\r\n            await doUpdate({\r\n                id,\r\n                ...values,\r\n            });\r\n        } else {\r\n            await doAdd(values);\r\n        }\r\n    };\r\n\r\n    return (\r\n        <ProCard>\r\n            {/* 创建或者已加载要更新的数据时，才渲染表单，顺利填充默认值 */}\r\n            {(!id || oldData) && (\r\n                <StepsForm<API.GeneratorAddRequest | API.GeneratorEditRequest>\r\n                    formRef={formRef}\r\n                    formProps={{\r\n                        initialValues: oldData,\r\n                    }}\r\n                    onFinish={doSubmit}\r\n                >\r\n                    <StepsForm.StepForm name=\"base\" title=\"基本信息\">\r\n                        <ProFormText name=\"name\" label=\"名称\" placeholder=\"请输入名称\" />\r\n                        <ProFormTextArea name=\"description\" label=\"描述\" placeholder=\"请输入描述\" />\r\n                        <ProFormText name=\"basePackage\" label=\"基础包\" placeholder=\"请输入基础包\" />\r\n                        <ProFormText name=\"version\" label=\"版本\" placeholder=\"请输入版本\" />\r\n                        <ProFormText name=\"author\" label=\"作者\" placeholder=\"请输入作者\" />\r\n                        <ProFormSelect label=\"标签\" mode=\"tags\" name=\"tags\" placeholder=\"请输入标签列表\" />\r\n                        <ProFormItem label=\"图片\" name=\"picture\">\r\n                            <PictureUploader biz=\"generator_picture\" />\r\n                        </ProFormItem>\r\n                    </StepsForm.StepForm>\r\n                    <StepsForm.StepForm name=\"fileConfig\" title=\"文件配置\">\r\n                    </StepsForm.StepForm>\r\n                    <StepsForm.StepForm name=\"modelConfig\" title=\"模型配置\">\r\n                    </StepsForm.StepForm>\r\n                    <StepsForm.StepForm name=\"dist\" title=\"生成器文件\">\r\n                        <ProFormItem label=\"产物包\" name=\"distPath\">\r\n                            <FileUploader biz=\"generator_dist\" description=\"请上传生成器文件压缩包\" />\r\n                        </ProFormItem>\r\n                    </StepsForm.StepForm>\r\n                </StepsForm>\r\n            )}\r\n        </ProCard>\r\n    );\r\n};\r\n\r\nexport default GeneratorAddPage;\r\n",
       "__isJSFile": true,
       "__absFile": "D:/code/y-generator-frontend/src/pages/Generator/Add/index.tsx"
     },
+    "7": {
+      "path": "/generator/use/:id",
+      "icon": "home",
+      "name": "使用生成器",
+      "hideInMenu": true,
+      "file": "@/pages/Generator/Use/index.tsx",
+      "parentId": "ant-design-pro-layout",
+      "id": "7",
+      "absPath": "/generator/use/:id",
+      "__content": "import {\r\n    getGeneratorVoByIdUsingGet,\r\n    useGeneratorUsingPost,\r\n} from '@/services/backend/generatorController';\r\nimport { Link, useModel, useParams } from '@@/exports';\r\nimport { DownloadOutlined } from '@ant-design/icons';\r\nimport { PageContainer } from '@ant-design/pro-components';\r\nimport {\r\n    Button,\r\n    Card,\r\n    Col,\r\n    Collapse,\r\n    Form,\r\n    Image,\r\n    Input,\r\n    message,\r\n    Row,\r\n    Space,\r\n    Tag,\r\n    Typography,\r\n} from 'antd';\r\nimport { saveAs } from 'file-saver';\r\nimport React, { useEffect, useState } from 'react';\r\n\r\n/**\r\n * 生成器使用\r\n * @constructor\r\n */\r\nconst GeneratorUsePage: React.FC = () => {\r\n    const { id } = useParams();\r\n    const [form] = Form.useForm();\r\n\r\n    const [loading, setLoading] = useState<boolean>(false);\r\n    const [downloading, setDownloading] = useState<boolean>(false);\r\n    const [data, setData] = useState<API.GeneratorVO>({});\r\n    const { initialState } = useModel('@@initialState');\r\n    const { currentUser } = initialState ?? {};\r\n\r\n    const models = data?.modelConfig?.models ?? [];\r\n\r\n    /**\r\n     * 加载数据\r\n     */\r\n    const loadData = async () => {\r\n        if (!id) {\r\n            return;\r\n        }\r\n        setLoading(true);\r\n        try {\r\n            const res = await getGeneratorVoByIdUsingGet({\r\n                id,\r\n            });\r\n            setData(res.data || {});\r\n        } catch (error: any) {\r\n            message.error('获取数据失败，' + error.message);\r\n        }\r\n        setLoading(false);\r\n    };\r\n\r\n    useEffect(() => {\r\n        loadData();\r\n    }, [id]);\r\n\r\n    /**\r\n     * 标签列表视图\r\n     * @param tags\r\n     */\r\n    const tagListView = (tags?: string[]) => {\r\n        if (!tags) {\r\n            return <></>;\r\n        }\r\n\r\n        return (\r\n            <div style={{ marginBottom: 8 }}>\r\n                {tags.map((tag: string) => {\r\n                    return <Tag key={tag}>{tag}</Tag>;\r\n                })}\r\n            </div>\r\n        );\r\n    };\r\n\r\n    /**\r\n     * 下载按钮\r\n     */\r\n    const downloadButton = data.distPath && currentUser && (\r\n        <Button\r\n            type=\"primary\"\r\n            icon={<DownloadOutlined />}\r\n            loading={downloading}\r\n            onClick={async () => {\r\n                setDownloading(true);\r\n                const values = form.getFieldsValue();\r\n\r\n                // eslint-disable-next-line react-hooks/rules-of-hooks\r\n                const blob = await useGeneratorUsingPost(\r\n                    {\r\n                        id: data.id,\r\n                        dataModel: values,\r\n                    },\r\n                    {\r\n                        responseType: 'blob',\r\n                    },\r\n                );\r\n                // 使用 file-saver 来保存文件\r\n                const fullPath = data.distPath || '';\r\n                saveAs(blob, fullPath.substring(fullPath.lastIndexOf('/') + 1));\r\n                setDownloading(false);\r\n            }}\r\n        >\r\n            生成代码\r\n        </Button>\r\n    );\r\n\r\n    return (\r\n        <PageContainer title={<></>} loading={loading}>\r\n            <Card>\r\n                <Row justify=\"space-between\" gutter={[32, 32]}>\r\n                    <Col flex=\"auto\">\r\n                        <Space size=\"large\" align=\"center\">\r\n                            <Typography.Title level={4}>{data.name}</Typography.Title>\r\n                            {tagListView(data.tags)}\r\n                        </Space>\r\n                        <Typography.Paragraph>{data.description}</Typography.Paragraph>\r\n                        <div style={{ marginBottom: 24 }} />\r\n                        <Form form={form}>\r\n                            {models.map((model, index) => {\r\n                                // 是分组\r\n                                if (model.groupKey) {\r\n                                    if (!model.models) {\r\n                                        return <></>;\r\n                                    }\r\n\r\n                                    return (\r\n                                        <Collapse\r\n                                            key={index}\r\n                                            style={{\r\n                                                marginBottom: 24,\r\n                                            }}\r\n                                            items={[\r\n                                                {\r\n                                                    key: index,\r\n                                                    label: model.groupName + '（分组）',\r\n                                                    children: model.models.map((subModel, index) => {\r\n                                                        return (\r\n                                                            <Form.Item\r\n                                                                key={index}\r\n                                                                label={subModel.fieldName}\r\n                                                                // @ts-ignore\r\n                                                                name={[model.groupKey, subModel.fieldName]}\r\n                                                            >\r\n                                                                <Input placeholder={subModel.description} />\r\n                                                            </Form.Item>\r\n                                                        );\r\n                                                    }),\r\n                                                },\r\n                                            ]}\r\n                                            bordered={false}\r\n                                            defaultActiveKey={[index]}\r\n                                        />\r\n                                    );\r\n                                }\r\n\r\n                                return (\r\n                                    <Form.Item label={model.fieldName} name={model.fieldName}>\r\n                                        <Input placeholder={model.description} />\r\n                                    </Form.Item>\r\n                                );\r\n                            })}\r\n                        </Form>\r\n                        <Space size=\"middle\">\r\n                            {downloadButton}\r\n                            <Link to={`/generator/detail/${id}`}>\r\n                                <Button>查看详情</Button>\r\n                            </Link>\r\n                        </Space>\r\n                    </Col>\r\n                    <Col flex=\"320px\">\r\n                        <Image src={data.picture} />\r\n                    </Col>\r\n                </Row>\r\n            </Card>\r\n        </PageContainer>\r\n    );\r\n};\r\n\r\nexport default GeneratorUsePage;\r\n",
+      "__isJSFile": true,
+      "__absFile": "D:/code/y-generator-frontend/src/pages/Generator/Use/index.tsx"
+    },
+    "8": {
+      "path": "/generator/detail/:id",
+      "icon": "home",
+      "name": "生成器详情",
+      "hideInMenu": true,
+      "file": "@/pages/Generator/Detail/index.tsx",
+      "parentId": "ant-design-pro-layout",
+      "id": "8",
+      "absPath": "/generator/detail/:id",
+      "__content": "import AuthorInfo from '@/pages/Generator/Detail/components/AuthorInfo';\r\nimport FileConfig from '@/pages/Generator/Detail/components/FileConfig';\r\nimport ModelConfig from '@/pages/Generator/Detail/components/ModelConfig';\r\nimport {\r\n    downloadGeneratorByIdUsingGet,\r\n    getGeneratorVoByIdUsingGet,\r\n} from '@/services/backend/generatorController';\r\nimport { Link, useModel, useParams } from '@@/exports';\r\nimport { DownloadOutlined, EditOutlined } from '@ant-design/icons';\r\nimport { PageContainer } from '@ant-design/pro-components';\r\nimport { Button, Card, Col, Image, message, Row, Space, Tabs, Tag, Typography } from 'antd';\r\nimport { saveAs } from 'file-saver';\r\nimport moment from 'moment';\r\nimport React, { useEffect, useState } from 'react';\r\n\r\n/**\r\n * 生成器详情页\r\n * @constructor\r\n */\r\nconst GeneratorDetailPage: React.FC = () => {\r\n    const { id } = useParams();\r\n\r\n    const [loading, setLoading] = useState<boolean>(false);\r\n    const [data, setData] = useState<API.GeneratorVO>({});\r\n    const { initialState } = useModel('@@initialState');\r\n    const { currentUser } = initialState ?? {};\r\n    const my = currentUser?.id === data?.userId;\r\n\r\n    /**\r\n     * 加载数据\r\n     */\r\n    const loadData = async () => {\r\n        if (!id) {\r\n            return;\r\n        }\r\n        setLoading(true);\r\n        try {\r\n            const res = await getGeneratorVoByIdUsingGet({\r\n                id,\r\n            });\r\n            setData(res.data || {});\r\n        } catch (error: any) {\r\n            message.error('获取数据失败，' + error.message);\r\n        }\r\n        setLoading(false);\r\n    };\r\n\r\n    useEffect(() => {\r\n        loadData();\r\n    }, [id]);\r\n\r\n    /**\r\n     * 标签列表视图\r\n     * @param tags\r\n     */\r\n    const tagListView = (tags?: string[]) => {\r\n        if (!tags) {\r\n            return <></>;\r\n        }\r\n\r\n        return (\r\n            <div style={{ marginBottom: 8 }}>\r\n                {tags.map((tag: string) => {\r\n                    return <Tag key={tag}>{tag}</Tag>;\r\n                })}\r\n            </div>\r\n        );\r\n    };\r\n\r\n    /**\r\n     * 下载按钮\r\n     */\r\n    const downloadButton = data.distPath && currentUser && (\r\n        <Button\r\n            icon={<DownloadOutlined />}\r\n            onClick={async () => {\r\n                const blob = await downloadGeneratorByIdUsingGet(\r\n                    {\r\n                        id: data.id,\r\n                    },\r\n                    {\r\n                        responseType: 'blob',\r\n                    },\r\n                );\r\n                // 使用 file-saver 来保存文件\r\n                const fullPath = data.distPath || '';\r\n                saveAs(blob, fullPath.substring(fullPath.lastIndexOf('/') + 1));\r\n            }}\r\n        >\r\n            下载\r\n        </Button>\r\n    );\r\n\r\n    /**\r\n     * 编辑按钮\r\n     */\r\n    const editButton = my && (\r\n        <Link to={`/generator/update?id=${data.id}`}>\r\n            <Button icon={<EditOutlined />}>编辑</Button>\r\n        </Link>\r\n    );\r\n\r\n    return (\r\n        <PageContainer title={<></>} loading={loading}>\r\n            <Card>\r\n                <Row justify=\"space-between\" gutter={[32, 32]}>\r\n                    <Col flex=\"auto\">\r\n                        <Space size=\"large\" align=\"center\">\r\n                            <Typography.Title level={4}>{data.name}</Typography.Title>\r\n                            {tagListView(data.tags)}\r\n                        </Space>\r\n                        <Typography.Paragraph>{data.description}</Typography.Paragraph>\r\n                        <Typography.Paragraph type=\"secondary\">\r\n                            创建时间：{moment(data.createTime).format('YYYY-MM-DD hh:mm:ss')}\r\n                        </Typography.Paragraph>\r\n                        <Typography.Paragraph type=\"secondary\">基础包：{data.basePackage}</Typography.Paragraph>\r\n                        <Typography.Paragraph type=\"secondary\">版本：{data.version}</Typography.Paragraph>\r\n                        <Typography.Paragraph type=\"secondary\">作者：{data.author}</Typography.Paragraph>\r\n                        <div style={{ marginBottom: 24 }} />\r\n                        <Space size=\"middle\">\r\n                            <Button type=\"primary\">立即使用</Button>\r\n                            {downloadButton}\r\n                            {editButton}\r\n                        </Space>\r\n                    </Col>\r\n                    <Col flex=\"320px\">\r\n                        <Image src={data.picture} />\r\n                    </Col>\r\n                </Row>\r\n            </Card>\r\n            <div style={{ marginBottom: 24 }} />\r\n            <Card>\r\n                <Tabs\r\n                    size=\"large\"\r\n                    defaultActiveKey={'fileConfig'}\r\n                    onChange={() => {}}\r\n                    items={[\r\n                        {\r\n                            key: 'fileConfig',\r\n                            label: '文件配置',\r\n                            children: <FileConfig data={data} />,\r\n                        },\r\n                        {\r\n                            key: 'modelConfig',\r\n                            label: '模型配置',\r\n                            children: <ModelConfig data={data} />,\r\n                        },\r\n                        {\r\n                            key: 'userInfo',\r\n                            label: '作者信息',\r\n                            children: <AuthorInfo data={data} />,\r\n                        },\r\n                    ]}\r\n                />\r\n            </Card>\r\n        </PageContainer>\r\n    );\r\n};\r\n\r\nexport default GeneratorDetailPage;\r\n",
+      "__isJSFile": true,
+      "__absFile": "D:/code/y-generator-frontend/src/pages/Generator/Detail/index.tsx"
+    },
     "9": {
+      "path": "/test/file",
+      "icon": "home",
+      "name": "文件上传下载测试",
+      "hideInMenu": true,
+      "file": "@/pages/Test/File/index.tsx",
+      "parentId": "ant-design-pro-layout",
+      "id": "9",
+      "absPath": "/test/file",
+      "__content": "import { COS_HOST } from '@/constants';\r\nimport {\r\n    testDownloadFileUsingGet,\r\n    testUploadFileUsingPost,\r\n} from '@/services/backend/fileController';\r\nimport { InboxOutlined } from '@ant-design/icons';\r\nimport { Button, Card, Divider, Flex, message, Upload, UploadProps } from 'antd';\r\n// @ts-ignore\r\nimport { saveAs } from 'file-saver';\r\nimport React, { useState } from 'react';\r\n\r\nconst { Dragger } = Upload;\r\n\r\n/**\r\n * 文件上传下载测试页面\r\n * @constructor\r\n */\r\nconst TestFilePage: React.FC = () => {\r\n    const [value, setValue] = useState<string>();\r\n\r\n    const props: UploadProps = {\r\n        name: 'file',\r\n        multiple: false,\r\n        maxCount: 1,\r\n        customRequest: async (fileObj: any) => {\r\n            try {\r\n                const res = await testUploadFileUsingPost({}, fileObj.file);\r\n                fileObj.onSuccess(res.data);\r\n                setValue(res.data);\r\n            } catch (e: any) {\r\n                message.error('上传失败，' + e.message);\r\n                fileObj.onError(e);\r\n            }\r\n        },\r\n        onRemove() {\r\n            setValue(undefined);\r\n        },\r\n    };\r\n\r\n    return (\r\n        <Flex gap={16}>\r\n        <Card title=\"文件上传\">\r\n        <Dragger {...props}>\r\n        <p className=\"ant-upload-drag-icon\">\r\n            <InboxOutlined />\r\n            </p>\r\n            <p className=\"ant-upload-text\">Click or drag file to this area to upload</p>\r\n    <p className=\"ant-upload-hint\">\r\n        Support for a single or bulk upload. Strictly prohibited from uploading company data or\r\n    other banned files.\r\n    </p>\r\n    </Dragger>\r\n    </Card>\r\n    <Card title=\"文件下载\" loading={!value}>\r\n    <div>文件地址：{COS_HOST + value}</div>\r\n    <Divider />\r\n    <img src={COS_HOST + value} height={280} />\r\n    <Divider />\r\n    <Button\r\n        onClick={async () => {\r\n        const blob = await testDownloadFileUsingGet(\r\n            {\r\n                filepath: value,\r\n            },\r\n            {\r\n                responseType: 'blob',\r\n            },\r\n        );\r\n        // 使用 file-saver 来保存文件\r\n        const fullPath = COS_HOST + value;\r\n        saveAs(blob, fullPath.substring(fullPath.lastIndexOf('/') + 1));\r\n    }}\r\n>\r\n    点击下载文件\r\n    </Button>\r\n    </Card>\r\n    </Flex>\r\n);\r\n};\r\n\r\nexport default TestFilePage;\r\n",
+      "__isJSFile": true,
+      "__absFile": "D:/code/y-generator-frontend/src/pages/Test/File/index.tsx"
+    },
+    "10": {
       "path": "/admin",
       "icon": "crown",
       "name": "管理页",
       "access": "canAdmin",
       "parentId": "ant-design-pro-layout",
-      "id": "9",
-      "absPath": "/admin"
-    },
-    "10": {
-      "path": "/admin",
-      "redirect": "/admin/user",
-      "parentId": "9",
       "id": "10",
       "absPath": "/admin"
     },
     "11": {
+      "path": "/admin",
+      "redirect": "/admin/user",
+      "parentId": "10",
+      "id": "11",
+      "absPath": "/admin"
+    },
+    "12": {
       "icon": "table",
       "path": "/admin/user",
       "name": "用户管理",
       "file": "@/pages/Admin/User/index.tsx",
-      "parentId": "9",
-      "id": "11",
+      "parentId": "10",
+      "id": "12",
       "absPath": "/admin/user",
       "__content": "import CreateModal from '@/pages/Admin/User/components/CreateModal';\nimport UpdateModal from '@/pages/Admin/User/components/UpdateModal';\nimport { deleteUserUsingPost, listUserByPageUsingPost } from '@/services/backend/userController';\nimport { PlusOutlined } from '@ant-design/icons';\nimport type { ActionType, ProColumns } from '@ant-design/pro-components';\nimport { PageContainer, ProTable } from '@ant-design/pro-components';\nimport '@umijs/max';\nimport { Button, message, Space, Typography } from 'antd';\nimport React, { useRef, useState } from 'react';\n\n/**\n * 用户管理页面\n *\n * @constructor\n */\nconst UserAdminPage: React.FC = () => {\n  // 是否显示新建窗口\n  const [createModalVisible, setCreateModalVisible] = useState<boolean>(false);\n  // 是否显示更新窗口\n  const [updateModalVisible, setUpdateModalVisible] = useState<boolean>(false);\n  const actionRef = useRef<ActionType>();\n  // 当前用户点击的数据\n  const [currentRow, setCurrentRow] = useState<API.User>();\n\n  /**\n   * 删除节点\n   *\n   * @param row\n   */\n  const handleDelete = async (row: API.User) => {\n    const hide = message.loading('正在删除');\n    if (!row) return true;\n    try {\n      await deleteUserUsingPost({\n        id: row.id as any,\n      });\n      hide();\n      message.success('删除成功');\n      actionRef?.current?.reload();\n      return true;\n    } catch (error: any) {\n      hide();\n      message.error('删除失败，' + error.message);\n      return false;\n    }\n  };\n\n  /**\n   * 表格列配置\n   */\n  const columns: ProColumns<API.User>[] = [\n    {\n      title: 'id',\n      dataIndex: 'id',\n      valueType: 'text',\n      hideInForm: true,\n    },\n    {\n      title: '账号',\n      dataIndex: 'userAccount',\n      valueType: 'text',\n    },\n    {\n      title: '用户名',\n      dataIndex: 'userName',\n      valueType: 'text',\n    },\n    {\n      title: '头像',\n      dataIndex: 'userAvatar',\n      valueType: 'image',\n      fieldProps: {\n        width: 64,\n      },\n      hideInSearch: true,\n    },\n    {\n      title: '简介',\n      dataIndex: 'userProfile',\n      valueType: 'textarea',\n    },\n    {\n      title: '权限',\n      dataIndex: 'userRole',\n      valueEnum: {\n        user: {\n          text: '用户',\n        },\n        admin: {\n          text: '管理员',\n        },\n      },\n    },\n    {\n      title: '创建时间',\n      sorter: true,\n      dataIndex: 'createTime',\n      valueType: 'dateTime',\n      hideInSearch: true,\n      hideInForm: true,\n    },\n    {\n      title: '更新时间',\n      sorter: true,\n      dataIndex: 'updateTime',\n      valueType: 'dateTime',\n      hideInSearch: true,\n      hideInForm: true,\n    },\n    {\n      title: '操作',\n      dataIndex: 'option',\n      valueType: 'option',\n      render: (_, record) => (\n        <Space size=\"middle\">\n          <Typography.Link\n            onClick={() => {\n              setCurrentRow(record);\n              setUpdateModalVisible(true);\n            }}\n          >\n            修改\n          </Typography.Link>\n          <Typography.Link type=\"danger\" onClick={() => handleDelete(record)}>\n            删除\n          </Typography.Link>\n        </Space>\n      ),\n    },\n  ];\n  return (\n    <PageContainer>\n      <ProTable<API.User>\n        headerTitle={'查询表格'}\n        actionRef={actionRef}\n        rowKey=\"key\"\n        search={{\n          labelWidth: 120,\n        }}\n        toolBarRender={() => [\n          <Button\n            type=\"primary\"\n            key=\"primary\"\n            onClick={() => {\n              setCreateModalVisible(true);\n            }}\n          >\n            <PlusOutlined /> 新建\n          </Button>,\n        ]}\n        request={async (params, sort, filter) => {\n          const sortField = Object.keys(sort)?.[0];\n          const sortOrder = sort?.[sortField] ?? undefined;\n\n          const { data, code } = await listUserByPageUsingPost({\n            ...params,\n            sortField,\n            sortOrder,\n            ...filter,\n          } as API.UserQueryRequest);\n\n          return {\n            success: code === 0,\n            data: data?.records || [],\n            total: Number(data?.total) || 0,\n          };\n        }}\n        columns={columns}\n      />\n      <CreateModal\n        visible={createModalVisible}\n        columns={columns}\n        onSubmit={() => {\n          setCreateModalVisible(false);\n          actionRef.current?.reload();\n        }}\n        onCancel={() => {\n          setCreateModalVisible(false);\n        }}\n      />\n      <UpdateModal\n        visible={updateModalVisible}\n        columns={columns}\n        oldData={currentRow}\n        onSubmit={() => {\n          setUpdateModalVisible(false);\n          setCurrentRow(undefined);\n          actionRef.current?.reload();\n        }}\n        onCancel={() => {\n          setUpdateModalVisible(false);\n        }}\n      />\n    </PageContainer>\n  );\n};\nexport default UserAdminPage;\n",
       "__isJSFile": true,
       "__absFile": "D:/code/y-generator-frontend/src/pages/Admin/User/index.tsx"
     },
-    "12": {
+    "13": {
       "icon": "tools",
       "path": "/admin/generator",
       "name": "生成器管理",
       "file": "@/pages/Admin/Generator/index.tsx",
-      "parentId": "9",
-      "id": "12",
+      "parentId": "10",
+      "id": "13",
       "absPath": "/admin/generator",
       "__content": "import CreateModal from '@/pages/Admin/Generator/components/CreateModal';\nimport UpdateModal from '@/pages/Admin/Generator/components/UpdateModal';\nimport {\n  deleteGeneratorUsingPost,\n  listGeneratorByPageUsingPost,\n} from '@/services/backend/generatorController';\nimport { PlusOutlined } from '@ant-design/icons';\nimport type { ActionType, ProColumns } from '@ant-design/pro-components';\nimport { ProTable } from '@ant-design/pro-components';\nimport '@umijs/max';\nimport { Button, message, Select, Space, Tag, Typography } from 'antd';\nimport React, { useRef, useState } from 'react';\n\n/**\n * 代码生成器管理页面\n *\n * @constructor\n */\nconst GeneratorAdminPage: React.FC = () => {\n  // 是否显示新建窗口\n  const [createModalVisible, setCreateModalVisible] = useState<boolean>(false);\n  // 是否显示更新窗口\n  const [updateModalVisible, setUpdateModalVisible] = useState<boolean>(false);\n  const actionRef = useRef<ActionType>();\n  // 当前代码生成器点击的数据\n  const [currentRow, setCurrentRow] = useState<API.Generator>();\n\n  /**\n   * 删除节点\n   *\n   * @param row\n   */\n  const handleDelete = async (row: API.Generator) => {\n    const hide = message.loading('正在删除');\n    if (!row) return true;\n    try {\n      await deleteGeneratorUsingPost({\n        id: row.id as any,\n      });\n      hide();\n      message.success('删除成功');\n      actionRef?.current?.reload();\n      return true;\n    } catch (error: any) {\n      hide();\n      message.error('删除失败，' + error.message);\n      return false;\n    }\n  };\n\n  /**\n   * 表格列配置\n   */\n  const columns: ProColumns<API.Generator>[] = [\n    {\n      title: 'id',\n      dataIndex: 'id',\n      valueType: 'text',\n      hideInForm: true,\n    },\n    {\n      title: '名称',\n      dataIndex: 'name',\n      valueType: 'text',\n    },\n    {\n      title: '描述',\n      dataIndex: 'description',\n      valueType: 'textarea',\n    },\n    {\n      title: '基础包',\n      dataIndex: 'basePackage',\n      valueType: 'text',\n    },\n    {\n      title: '版本',\n      dataIndex: 'version',\n      valueType: 'text',\n    },\n    {\n      title: '作者',\n      dataIndex: 'author',\n      valueType: 'text',\n    },\n    {\n      title: '标签',\n      dataIndex: 'tags',\n      valueType: 'text',\n      renderFormItem(schema) {\n        const { fieldProps } = schema;\n        // @ts-ignore\n        return <Select mode=\"tags\" {...fieldProps} />;\n      },\n      render(_, record) {\n        if (!record.tags) {\n          return <></>;\n        }\n\n        return JSON.parse(record.tags).map((tag: string) => {\n          return <Tag key={tag}>{tag}</Tag>;\n        });\n      },\n    },\n    {\n      title: '图片',\n      dataIndex: 'picture',\n      valueType: 'image',\n      fieldProps: {\n        width: 64,\n      },\n      hideInSearch: true,\n    },\n    {\n      title: '文件配置',\n      dataIndex: 'fileConfig',\n      valueType: 'jsonCode',\n    },\n    {\n      title: '模型配置',\n      dataIndex: 'modelConfig',\n      valueType: 'jsonCode',\n    },\n    {\n      title: '产物包路径',\n      dataIndex: 'distPath',\n      valueType: 'text',\n    },\n    {\n      title: '状态',\n      dataIndex: 'status',\n      valueEnum: {\n        0: {\n          text: '默认',\n        },\n      },\n    },\n    {\n      title: '创建用户',\n      dataIndex: 'userId',\n      valueType: 'text',\n    },\n    {\n      title: '创建时间',\n      sorter: true,\n      dataIndex: 'createTime',\n      valueType: 'dateTime',\n      hideInSearch: true,\n      hideInForm: true,\n    },\n    {\n      title: '更新时间',\n      sorter: true,\n      dataIndex: 'updateTime',\n      valueType: 'dateTime',\n      hideInSearch: true,\n      hideInForm: true,\n    },\n    {\n      title: '操作',\n      dataIndex: 'option',\n      valueType: 'option',\n      render: (_, record) => (\n        <Space size=\"middle\">\n          <Typography.Link\n            onClick={() => {\n              setCurrentRow(record);\n              setUpdateModalVisible(true);\n            }}\n          >\n            修改\n          </Typography.Link>\n          <Typography.Link type=\"danger\" onClick={() => handleDelete(record)}>\n            删除\n          </Typography.Link>\n        </Space>\n      ),\n    },\n  ];\n\n  return (\n    <div className=\"generator-admin-page\">\n      <Typography.Title level={4} style={{ marginBottom: 16 }}>\n        生成器管理\n      </Typography.Title>\n      <ProTable<API.Generator>\n        headerTitle={'查询表格'}\n        actionRef={actionRef}\n        rowKey=\"key\"\n        search={{\n          labelWidth: 120,\n        }}\n        toolBarRender={() => [\n          <Button\n            type=\"primary\"\n            key=\"primary\"\n            onClick={() => {\n              setCreateModalVisible(true);\n            }}\n          >\n            <PlusOutlined /> 新建\n          </Button>,\n        ]}\n        request={async (params, sort, filter) => {\n          const sortField = Object.keys(sort)?.[0];\n          const sortOrder = sort?.[sortField] ?? undefined;\n\n          const { data, code } = await listGeneratorByPageUsingPost({\n            ...params,\n            sortField,\n            sortOrder,\n            ...filter,\n          } as API.GeneratorQueryRequest);\n\n          return {\n            success: code === 0,\n            data: data?.records || [],\n            total: Number(data?.total) || 0,\n          };\n        }}\n        columns={columns}\n      />\n      <CreateModal\n        visible={createModalVisible}\n        columns={columns}\n        onSubmit={() => {\n          setCreateModalVisible(false);\n          actionRef.current?.reload();\n        }}\n        onCancel={() => {\n          setCreateModalVisible(false);\n        }}\n      />\n      <UpdateModal\n        visible={updateModalVisible}\n        columns={columns}\n        oldData={currentRow}\n        onSubmit={() => {\n          setUpdateModalVisible(false);\n          setCurrentRow(undefined);\n          actionRef.current?.reload();\n        }}\n        onCancel={() => {\n          setUpdateModalVisible(false);\n        }}\n      />\n    </div>\n  );\n};\nexport default GeneratorAdminPage;\n",
       "__isJSFile": true,
       "__absFile": "D:/code/y-generator-frontend/src/pages/Admin/Generator/index.tsx"
     },
-    "13": {
+    "14": {
       "path": "/",
       "redirect": "/welcome",
       "parentId": "ant-design-pro-layout",
-      "id": "13",
+      "id": "14",
       "absPath": "/"
     },
-    "14": {
+    "15": {
       "path": "*",
       "layout": false,
       "file": "@/pages/404.tsx",
-      "id": "14",
+      "id": "15",
       "absPath": "/*",
       "__content": "import { history } from '@umijs/max';\nimport { Button, Result } from 'antd';\nimport React from 'react';\n\nconst NoFoundPage: React.FC = () => (\n  <Result\n    status=\"404\"\n    title=\"404\"\n    subTitle=\"Sorry, the page you visited does not exist.\"\n    extra={\n      <Button type=\"primary\" onClick={() => history.push('/')}>\n        Back Home\n      </Button>\n    }\n  />\n);\n\nexport default NoFoundPage;\n",
       "__isJSFile": true,
@@ -5859,7 +5997,7 @@
             "format": "esm"
           },
           "src/services/backend/generatorController.ts": {
-            "bytes": 3663,
+            "bytes": 4003,
             "imports": [
               {
                 "path": "src/.umi/exports.ts",
@@ -5917,42 +6055,6 @@
                 "path": "src/.umi/exports.ts",
                 "kind": "import-statement",
                 "original": "@umijs/max"
-              }
-            ],
-            "format": "esm"
-          },
-          "src/pages/Test/File/index.tsx": {
-            "bytes": 2345,
-            "imports": [
-              {
-                "path": "src/constants/index.ts",
-                "kind": "import-statement",
-                "original": "@/constants"
-              },
-              {
-                "path": "src/services/backend/fileController.ts",
-                "kind": "import-statement",
-                "original": "@/services/backend/fileController"
-              },
-              {
-                "path": "@ant-design/icons",
-                "kind": "import-statement",
-                "external": true
-              },
-              {
-                "path": "antd",
-                "kind": "import-statement",
-                "external": true
-              },
-              {
-                "path": "file-saver",
-                "kind": "import-statement",
-                "external": true
-              },
-              {
-                "path": "react",
-                "kind": "import-statement",
-                "external": true
               }
             ],
             "format": "esm"
@@ -6075,6 +6177,47 @@
             ],
             "format": "esm"
           },
+          "src/pages/Generator/Use/index.tsx": {
+            "bytes": 6821,
+            "imports": [
+              {
+                "path": "src/services/backend/generatorController.ts",
+                "kind": "import-statement",
+                "original": "@/services/backend/generatorController"
+              },
+              {
+                "path": "src/.umi/exports.ts",
+                "kind": "import-statement",
+                "original": "@@/exports"
+              },
+              {
+                "path": "@ant-design/icons",
+                "kind": "import-statement",
+                "external": true
+              },
+              {
+                "path": "@ant-design/pro-components",
+                "kind": "import-statement",
+                "external": true
+              },
+              {
+                "path": "antd",
+                "kind": "import-statement",
+                "external": true
+              },
+              {
+                "path": "file-saver",
+                "kind": "import-statement",
+                "external": true
+              },
+              {
+                "path": "react",
+                "kind": "import-statement",
+                "external": true
+              }
+            ],
+            "format": "esm"
+          },
           "src/pages/Generator/Detail/components/AuthorInfo.tsx": {
             "bytes": 636,
             "imports": [
@@ -6134,7 +6277,7 @@
             "format": "esm"
           },
           "src/pages/Generator/Detail/index.tsx": {
-            "bytes": 5665,
+            "bytes": 5775,
             "imports": [
               {
                 "path": "src/pages/Generator/Detail/components/AuthorInfo.tsx",
@@ -6183,6 +6326,42 @@
               },
               {
                 "path": "moment",
+                "kind": "import-statement",
+                "external": true
+              },
+              {
+                "path": "react",
+                "kind": "import-statement",
+                "external": true
+              }
+            ],
+            "format": "esm"
+          },
+          "src/pages/Test/File/index.tsx": {
+            "bytes": 2345,
+            "imports": [
+              {
+                "path": "src/constants/index.ts",
+                "kind": "import-statement",
+                "original": "@/constants"
+              },
+              {
+                "path": "src/services/backend/fileController.ts",
+                "kind": "import-statement",
+                "original": "@/services/backend/fileController"
+              },
+              {
+                "path": "@ant-design/icons",
+                "kind": "import-statement",
+                "external": true
+              },
+              {
+                "path": "antd",
+                "kind": "import-statement",
+                "external": true
+              },
+              {
+                "path": "file-saver",
                 "kind": "import-statement",
                 "external": true
               },
@@ -6557,7 +6736,7 @@
             "format": "esm"
           },
           "src/.umi/core/route.tsx": {
-            "bytes": 3303,
+            "bytes": 3560,
             "imports": [
               {
                 "path": "react",
@@ -6585,14 +6764,19 @@
                 "original": "@/pages/Index/index.tsx"
               },
               {
-                "path": "src/pages/Test/File/index.tsx",
+                "path": "src/pages/Generator/Add/index.tsx",
                 "kind": "dynamic-import",
-                "original": "@/pages/Test/File/index.tsx"
+                "original": "@/pages/Generator/Add/index.tsx"
               },
               {
                 "path": "src/pages/Generator/Add/index.tsx",
                 "kind": "dynamic-import",
                 "original": "@/pages/Generator/Add/index.tsx"
+              },
+              {
+                "path": "src/pages/Generator/Use/index.tsx",
+                "kind": "dynamic-import",
+                "original": "@/pages/Generator/Use/index.tsx"
               },
               {
                 "path": "src/pages/Generator/Detail/index.tsx",
@@ -6600,9 +6784,9 @@
                 "original": "@/pages/Generator/Detail/index.tsx"
               },
               {
-                "path": "src/pages/Generator/Add/index.tsx",
+                "path": "src/pages/Test/File/index.tsx",
                 "kind": "dynamic-import",
-                "original": "@/pages/Generator/Add/index.tsx"
+                "original": "@/pages/Test/File/index.tsx"
               },
               {
                 "path": "src/.umi/core/EmptyRoute.tsx",
@@ -7172,26 +7356,6 @@
                 "external": true
               },
               {
-                "path": "file-saver",
-                "kind": "import-statement",
-                "external": true
-              },
-              {
-                "path": "react",
-                "kind": "import-statement",
-                "external": true
-              },
-              {
-                "path": "@ant-design/icons",
-                "kind": "import-statement",
-                "external": true
-              },
-              {
-                "path": "antd",
-                "kind": "import-statement",
-                "external": true
-              },
-              {
                 "path": "antd/es/upload/Dragger",
                 "kind": "import-statement",
                 "external": true
@@ -7228,6 +7392,31 @@
               },
               {
                 "path": "antd",
+                "kind": "import-statement",
+                "external": true
+              },
+              {
+                "path": "react",
+                "kind": "import-statement",
+                "external": true
+              },
+              {
+                "path": "@ant-design/icons",
+                "kind": "import-statement",
+                "external": true
+              },
+              {
+                "path": "@ant-design/pro-components",
+                "kind": "import-statement",
+                "external": true
+              },
+              {
+                "path": "antd",
+                "kind": "import-statement",
+                "external": true
+              },
+              {
+                "path": "file-saver",
                 "kind": "import-statement",
                 "external": true
               },
@@ -7298,6 +7487,26 @@
               },
               {
                 "path": "moment",
+                "kind": "import-statement",
+                "external": true
+              },
+              {
+                "path": "react",
+                "kind": "import-statement",
+                "external": true
+              },
+              {
+                "path": "@ant-design/icons",
+                "kind": "import-statement",
+                "external": true
+              },
+              {
+                "path": "antd",
+                "kind": "import-statement",
+                "external": true
+              },
+              {
+                "path": "file-saver",
                 "kind": "import-statement",
                 "external": true
               },
@@ -8794,7 +9003,7 @@
                 "bytesInOutput": 5613
               },
               "src/services/backend/generatorController.ts": {
-                "bytesInOutput": 1931
+                "bytesInOutput": 2154
               },
               "src/pages/Index/index.tsx": {
                 "bytesInOutput": 5938
@@ -8802,32 +9011,35 @@
               "src/services/backend/fileController.ts": {
                 "bytesInOutput": 1784
               },
-              "src/pages/Test/File/index.tsx": {
-                "bytesInOutput": 2753
-              },
               "src/components/FileUploader/index.tsx": {
-                "bytesInOutput": 1771
+                "bytesInOutput": 1750
               },
               "src/components/PictureUploader/index.tsx": {
-                "bytesInOutput": 1842
+                "bytesInOutput": 1830
               },
               "src/pages/Generator/Add/index.tsx": {
                 "bytesInOutput": 5227
+              },
+              "src/pages/Generator/Use/index.tsx": {
+                "bytesInOutput": 5411
               },
               "src/pages/Generator/Detail/components/AuthorInfo.tsx": {
                 "bytesInOutput": 830
               },
               "src/pages/Generator/Detail/components/FileConfig.tsx": {
-                "bytesInOutput": 4708
+                "bytesInOutput": 4695
               },
               "src/pages/Generator/Detail/components/ModelConfig.tsx": {
                 "bytesInOutput": 3837
               },
               "src/pages/Generator/Detail/index.tsx": {
-                "bytesInOutput": 5465
+                "bytesInOutput": 5588
+              },
+              "src/pages/Test/File/index.tsx": {
+                "bytesInOutput": 2824
               },
               "src/pages/Admin/User/components/CreateModal.tsx": {
-                "bytesInOutput": 1495
+                "bytesInOutput": 1499
               },
               "src/pages/Admin/User/components/UpdateModal.tsx": {
                 "bytesInOutput": 1794
@@ -8863,7 +9075,7 @@
                 "bytesInOutput": 1235
               },
               "src/.umi/core/route.tsx": {
-                "bytesInOutput": 3504
+                "bytesInOutput": 3763
               },
               "src/.umi/testBrowser.tsx": {
                 "bytesInOutput": 2396
@@ -8884,7 +9096,7 @@
                 "bytesInOutput": 1548
               }
             },
-            "bytes": 155017
+            "bytes": 161100
           }
         }
       }
@@ -14558,6 +14770,185 @@
             }
           ],
           "start": 703,
+          "type": "ImportDeclaration"
+        }
+      ],
+      "D:\\code\\y-generator-frontend\\src\\pages\\Generator\\Use\\index.tsx": [
+        {
+          "end": 120,
+          "importKind": "value",
+          "source": "@/services/backend/generatorController",
+          "specifiers": [
+            {
+              "imported": "getGeneratorVoByIdUsingGet",
+              "local": "getGeneratorVoByIdUsingGet",
+              "type": "ImportSpecifier"
+            },
+            {
+              "imported": "useGeneratorUsingPost",
+              "local": "useGeneratorUsingPost",
+              "type": "ImportSpecifier"
+            }
+          ],
+          "start": 1,
+          "type": "ImportDeclaration"
+        },
+        {
+          "end": 177,
+          "importKind": "value",
+          "source": "@@/exports",
+          "specifiers": [
+            {
+              "imported": "Link",
+              "local": "Link",
+              "type": "ImportSpecifier"
+            },
+            {
+              "imported": "useModel",
+              "local": "useModel",
+              "type": "ImportSpecifier"
+            },
+            {
+              "imported": "useParams",
+              "local": "useParams",
+              "type": "ImportSpecifier"
+            }
+          ],
+          "start": 122,
+          "type": "ImportDeclaration"
+        },
+        {
+          "end": 232,
+          "importKind": "value",
+          "source": "@ant-design/icons",
+          "specifiers": [
+            {
+              "imported": "DownloadOutlined",
+              "local": "DownloadOutlined",
+              "type": "ImportSpecifier"
+            }
+          ],
+          "start": 179,
+          "type": "ImportDeclaration"
+        },
+        {
+          "end": 293,
+          "importKind": "value",
+          "source": "@ant-design/pro-components",
+          "specifiers": [
+            {
+              "imported": "PageContainer",
+              "local": "PageContainer",
+              "type": "ImportSpecifier"
+            }
+          ],
+          "start": 234,
+          "type": "ImportDeclaration"
+        },
+        {
+          "end": 466,
+          "importKind": "value",
+          "source": "antd",
+          "specifiers": [
+            {
+              "imported": "Button",
+              "local": "Button",
+              "type": "ImportSpecifier"
+            },
+            {
+              "imported": "Card",
+              "local": "Card",
+              "type": "ImportSpecifier"
+            },
+            {
+              "imported": "Col",
+              "local": "Col",
+              "type": "ImportSpecifier"
+            },
+            {
+              "imported": "Collapse",
+              "local": "Collapse",
+              "type": "ImportSpecifier"
+            },
+            {
+              "imported": "Form",
+              "local": "Form",
+              "type": "ImportSpecifier"
+            },
+            {
+              "imported": "Image",
+              "local": "Image",
+              "type": "ImportSpecifier"
+            },
+            {
+              "imported": "Input",
+              "local": "Input",
+              "type": "ImportSpecifier"
+            },
+            {
+              "imported": "message",
+              "local": "message",
+              "type": "ImportSpecifier"
+            },
+            {
+              "imported": "Row",
+              "local": "Row",
+              "type": "ImportSpecifier"
+            },
+            {
+              "imported": "Space",
+              "local": "Space",
+              "type": "ImportSpecifier"
+            },
+            {
+              "imported": "Tag",
+              "local": "Tag",
+              "type": "ImportSpecifier"
+            },
+            {
+              "imported": "Typography",
+              "local": "Typography",
+              "type": "ImportSpecifier"
+            }
+          ],
+          "start": 295,
+          "type": "ImportDeclaration"
+        },
+        {
+          "end": 504,
+          "importKind": "value",
+          "source": "file-saver",
+          "specifiers": [
+            {
+              "imported": "saveAs",
+              "local": "saveAs",
+              "type": "ImportSpecifier"
+            }
+          ],
+          "start": 468,
+          "type": "ImportDeclaration"
+        },
+        {
+          "end": 557,
+          "importKind": "value",
+          "source": "react",
+          "specifiers": [
+            {
+              "local": "React",
+              "type": "ImportDefaultSpecifier"
+            },
+            {
+              "imported": "useEffect",
+              "local": "useEffect",
+              "type": "ImportSpecifier"
+            },
+            {
+              "imported": "useState",
+              "local": "useState",
+              "type": "ImportSpecifier"
+            }
+          ],
+          "start": 506,
           "type": "ImportDeclaration"
         }
       ],
